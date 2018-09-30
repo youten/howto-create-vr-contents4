@@ -72,7 +72,7 @@ date: 2018-10-08
 # 複数指定する場合は次のように記述する
 # [["初版第1刷の日付", "初版第2刷の日付"], ["第2版第1刷の日付"]]
 # 日付の後ろを空白文字で区切り、任意の文字列を置くことも可能。
-history: [["2018-10-08 技術書典5版 v0.9.0"]
+history: [["2018-10-08 技術書典5版 v0.9.0"]]
 # 権利表記(配列で複数指定可)
 rights: (C) 2018 ReDo れいぞうこのドア
 # description: 説明
@@ -87,7 +87,7 @@ rights: (C) 2018 ReDo れいぞうこのドア
 debug: null
 
 # 固有IDに使用するドメイン。省略した場合は時刻に基づくランダムUUIDが入る
-urnid: urn:uid:https://github.com/youten/howto-create-vr-contents3
+urnid: urn:uid:https://github.com/youten/howto-create-vr-contents4
 #
 # ISBN。省略した場合はurnidが入る
 # isbn: null
@@ -133,7 +133,7 @@ toc: true
 # cover: null
 #
 # 表紙に配置し、書籍の影絵にも利用する画像ファイル。省略した場合はnull (画像を使わない)。画像ディレクトリ内に置いてもディレクトリ名は不要(例: cover.jpg)
-coverimage: vr4-hyousi.png
+#coverimage: vr4-hyousi.png
 #
 # 表紙の後に大扉ページを作成するか。省略した場合はnull (作成しない)
 titlepage: true
@@ -151,7 +151,7 @@ titlepage: true
 colophon: true
 
 # 裏表紙ファイル (画像はcoversまたはimagesに配置する)。ファイル名を指定すると裏表紙として入る
-backcover: vr4-urahyousi.png
+#backcover: vr4-urahyousi.png
 
 # プロフィールページファイル。ファイル名を指定すると著者紹介として入る
 # profile: null

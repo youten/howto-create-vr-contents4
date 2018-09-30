@@ -11,8 +11,8 @@
 
 本書は、以下のような方をターゲットにしています。
 
- * iPhone XのARKit Face Trackingで遊んでみたい人
- * なんとなくX系のiPhoneを持ってるけど使い道がない人
+ * iPhone XのARKit Face Trackingが気になる人
+ * Unityがちょっと分かって、X系のiPhoneを持っていてTrueDepthカメラで遊んでみたい人
  * 最近かわいい3Dモデルをホイホイ買ったはいいものの使い道がない人
 
 == 本書の賞味期限とリポジトリ公開について
@@ -22,10 +22,15 @@
 
  * @<href>{https://github.com/youten/howto-create-vr-contents4}
  ** Re:VIEWの素材一式、出力PDF、関連プロジェクトのソースコードを全て含む想定です。
+ * @<href>{https://github.com/youten/YXAvatar}
+ ** 本書の後半で扱う、iPhone XのARKit Face TrackingでVRMキャラクターを動かすアバターアプリのUnityプロジェクト一式です。
+ ** 他OSSをいくつか含みます、それぞれのライセンスは配下のドキュメントに従います。
 
 本書のうち、私youtenが著作権を有する範囲のライセンスについては、文章はCC-BY 4.0ライセンス@<fn>{cc-by-4}を適用します。
+ソースコードについてはMITライセンス@<fn>{mit-license}を適用します。
 
 本書籍はRe:VIEWで作成されており、その設定ファイル等について、MITライセンスに基づき「C89 初めてのRe:VIEW v2」リポジトリ@<fn>{techbooster-c89-review-v2}で公開されているものを利用させていただいております。
 
 //footnote[techbooster-c89-review-v2][@<href>{https://github.com/TechBooster/C89-FirstStepReVIEW-v2}]
 //footnote[cc-by-4][@<href>{https://creativecommons.org/licenses/by/4.0/legalcode.ja}]
+//footnote[mit-license][@<href>{https://opensource.org/licenses/MIT}]
