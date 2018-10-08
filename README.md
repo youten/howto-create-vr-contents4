@@ -7,6 +7,3 @@
 
 - だいたいARKit Face Trackingの話です
   - 「VRコンテンツのつくりかた」とは・・・
-
-参考：[技術書典4 れいぞうこのドア く-17にて「VRコンテンツのつくりかた3」を頒布します #技術書典](http://greety.sakura.ne.jp/redo/2018/04/4-17vr3-hello-vtuber-world-vtuber.html)
-
