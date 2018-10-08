@@ -117,7 +117,7 @@ config.enableLightEstimation = true;
 
 === 顔のMeshは使わない
 
-「FaceBlendshapeScene」シーンにあるような、顔表面のリアルなマスクなようなMeshを取得するまわりは扱いません。
+「FaceBlendshapeScene」シーンにあるような、認識した顔表面のMeshを取得してマスクのように表示できるあたりは扱いません。
 
 === 顔の位置と角度はモデルのPositionと頭のRotationに適用
 
@@ -237,4 +237,4 @@ ARKit Facial Trackingのトラッキング結果をどう扱うか決めたあ�
  * Head Rot 2,3,4：頭以降、角度を分散しながら伝播させていくTransformを指定します。頭から首、背骨、腰に向かって順番に設定することを想定しています。
  * Target Blend Shape：BlendShape適用先のSkinned Mesh Rendererです。表情モーフが複数のMeshに分かれてるようなモデルではがんばって改造する必要があります。
  * Left/Right Eye Rot：目の向きを角度で制御する際には、左右の目のボーンを指定します。BlendShape制御の際には不要です。
- * Jaw Open/Eye Blink Curve：唇の「ほんのちょっと開きプルプル」や目の「ギリギリ閉じきってないプルプル」をフィルタしています。Animation CurveのUIをAnimation以外に使えるのを最近知りました。
+ * Jaw Open/Eye Blink Curve：唇の「ほんのちょっと開きプルプル」や目の「ギリギリ閉じきってないプルプル」をフィルタしています。Animation CurveのUIをAnimation以外に使えるのを最近知りました。便利です。
