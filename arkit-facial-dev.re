@@ -59,7 +59,7 @@ iPhone X上でデバッグ専用のアプリを動かして、Unityエディタ�
 //image[arkitremote-01][ARKitRemoteシーンの格納パス][scale=0.5]
 
 ところがこのARKitRemote、Unity2018.2あたりからNativeまわりの動きが変わったのか、少し古めのUnityでビルドする必要がありますのでご注意ください。
-2017.4.xまたは2017.1.xなら大丈夫だと思われます。
+2017.4.xまたは2018.1.xなら大丈夫だと思われます。
 
  * 「File＞Build Settings...」から「UnityARKitPlugin/ARKitRemote/ARKitRemote」のみチェックをONにします。
  * 「Development Build」のチェックをONにします。
