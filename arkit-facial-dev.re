@@ -6,11 +6,11 @@
 
 それでは、概要について抑えたところで、実際にUnityで3Dモデルを動かして遊んでみましょう。
 
-== slothアライグマサンプル
+== slothナマケモノサンプル
 
-//image[sloth-05][Unity ARKit Plugin フェイシャルトラッキング slothアライグマサンプル][scale=0.25]
+//image[sloth-05][Unity ARKit Plugin フェイシャルトラッキング slothナマケモノサンプル][scale=0.25]
 
-Unity ARKit Pluginに含まれるsloth、アライグマのサンプルが一番目的に近いので、まずそちらを動かします。
+Unity ARKit Pluginに含まれるsloth、ナマケモノのサンプルが一番目的に近いので、まずそちらを動かします。
 
 Unityのバージョンですが、実は少しややこしい話があります。
 後述のARKitRemoteというデバッグ用アプリが新しめのUnityだと動かないため、LTSの2017.4系最新が無難そうです。
@@ -37,7 +37,7 @@ ARKit Face Trackingそのものは2017.4系〜2018.2系でチマチマ動かし�
 
 //image[sloth-04][FaceBlendShapeSlotシーン][scale=0.7]
 
-Unityでビルド成功後、Xcodeで引き継いだビルドがうまく行けばiPhone X上で自分の顔をトラッキングするアライグマが表示されます（@<img>{sloth-05}）。
+Unityでビルド成功後、Xcodeで引き継いだビルドがうまく行けばiPhone X上で自分の顔をトラッキングするナマケモノが表示されます（@<img>{sloth-05}）。
 初回はXcode上でSigningエラーが出ます。有効なApple IDをXcodeに設定しておけば、無料でPersonal Teamの署名ができるはずなので、そのあたりは適当に調べてみてください。
 
 また、Unity ARKit PluginはBitBucketでOSSとして公開されています@<fn>{unity-arkit-plugin-bitbucket}。
@@ -51,7 +51,7 @@ Unity ARKit Plugin配下の通常ロジックのソースコードはMITとい�
 
 === Unityエディタ上でリモートデバッグができるARKitRemote
 
-//image[arkitremote-02][ARKitRemoteでslothアライグマサンプルをUnityエディタ上で確認][scale=0.70]
+//image[arkitremote-02][ARKitRemoteでslothナマケモノサンプルをUnityエディタ上で確認][scale=0.70]
 
 iPhone X上でデバッグ専用のアプリを動かして、Unityエディタ上でトラッキング結果を受け取るARKitRemoteというツール（仕組み）があります。
 手順がそれなりに複雑で、接続相性や安定性の観点でもあまりよい子とは言えないものですが、iPhone実機ビルドを経ずに確認ができるというメリットのために、トライすべきです。
